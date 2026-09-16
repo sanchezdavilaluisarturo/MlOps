@@ -88,6 +88,7 @@ services:
       AWS_SECRET_ACCESS_KEY: ${MINIO_SECRET_ACCESS_KEY}
       MLFLOW_S3_ENDPOINT_URL: http://s3:${MINIO_PORT}
       MLFLOW_S3_IGNORE_TLS: "true"
+      MLFLOW_SERVER_ALLOWED_ORIGINS: "*"
     command: >
       mlflow server
       --backend-store-uri postgresql://${PG_USER}:${PG_PASSWORD}@db:${PG_PORT}/${PG_DATABASE}

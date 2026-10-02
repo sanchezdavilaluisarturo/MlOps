@@ -1,3 +1,6 @@
-Entrenamiento baseline completado exitosamente.
-Umbral óptimo seleccionado en validación: 0.6800
-F1 en Test con dicho umbral: 0.3511
+Entrenamiento con HistGradientBoosting finalizado.
+Mejores parámetros: {'classifier__l2_regularization': 0.0, 'classifier__learning_rate': 0.15, 'classifier__max_iter': 150, 'classifier__max_leaf_nodes': 15, 'classifier__min_samples_leaf': 10}
+Umbral óptimo en validación: 0.6400
+Test ROC-AUC: 0.8596
+Test PR-AUC: 0.7754
+Test F1: 0.7339

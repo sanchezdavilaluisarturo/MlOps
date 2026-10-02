@@ -1,4 +1,8 @@
-mlflow
-scikit-learn
 kagglehub
+scikit-learn
+matplotlib
+numpy
+pandas
+seaborn
+mlflow
 ipython

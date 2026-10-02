@@ -1,0 +1,3 @@
+Entrenamiento baseline completado exitosamente.
+Umbral óptimo seleccionado en validación: 0.6800
+F1 en Test con dicho umbral: 0.3511

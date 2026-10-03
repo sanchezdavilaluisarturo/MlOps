@@ -26,7 +26,7 @@ jobs:
 
       - name: Convert notebook to Python script
         run: |
-          jupyter nbconvert --to script Semana3/Churn_Test_V1.ipynb --output train
+          jupyter nbconvert --to script Semana3/TC5061_Notebook_Baseline_SanchezDavilaLuis.ipynb --output train
 
       - name: Run training script
         run: |
